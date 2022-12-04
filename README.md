@@ -1,2 +1,2 @@
-# AioLavaAPI
-Async API client for lava.ru
+# LavaBusiness
+Async API client for lava.ru business API
