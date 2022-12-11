@@ -62,10 +62,10 @@ asyncio.run(main())
 ### Подробная документация расположена на сайте - https://lavabusiness.readthedocs.io/en/latest/
 </details>
 
+## ✔ TODO
+- [ ] EN Translation
+
 ## ☕ Buy me a coffee
 BTC - bc1qmt354lzp06dkmmtx2f7m3xlg6uuu20jt755ce7
 
 USDT ERC-20 - 0x010847D5A10c56B76b4c7baE83ca27d39d30493a
-
-## ✔ TODO
-- [ ] EN Translation
