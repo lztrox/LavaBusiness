@@ -61,3 +61,7 @@ asyncio.run(main())
 
 ### Подробная документация расположена на сайте - https://lavabusiness.readthedocs.io/en/latest/
 </details>
+
+### ✅ TODO
+- [ ] EN Translation
+- [ ] .kz domain support
