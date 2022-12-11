@@ -65,6 +65,7 @@ asyncio.run(main())
 ## ✔ TODO
 - [ ] EN Translation
 - [ ] httpx -> aiohttp
+- [ ] Docs for types.errors
 
 ## ☕ Buy me a coffee
 BTC - bc1qmt354lzp06dkmmtx2f7m3xlg6uuu20jt755ce7
