@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as readme_file:
+with open("PYPI_README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = ['httpx>=0.23.1']
@@ -10,7 +10,7 @@ setup(
     description="Async client for lava.ru business-API",
     author="lztrox",
     url="https://github.com/lztrox/LavaBusiness",
-    version="1.0.3",
+    version="1.0.4",
     python_requires='>=3.7',
     packages=find_packages(),
     install_requires=requirements,
