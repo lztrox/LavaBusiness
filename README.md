@@ -64,4 +64,3 @@ asyncio.run(main())
 
 ## ✔ TODO
 - [ ] EN Translation
-- [ ] .kz domain support
