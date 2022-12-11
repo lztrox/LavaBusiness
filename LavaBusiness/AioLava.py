@@ -89,7 +89,7 @@ class AioLava:
         """
         Доступные методы оплаты
 
-        :return: ``dict``
+        :return: ``list``
         """
         params = {'shopId': self.project_id}
         headers = await self._create_sign_headers(params)
@@ -172,7 +172,7 @@ class AioLava:
         """
         Тарифы на вывод
 
-        :return: ``dict``
+        :return: ``list``
         """
         params = {'shopId': self.project_id}
         headers = await self._create_sign_headers(params)
