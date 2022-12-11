@@ -119,7 +119,7 @@ class AioLava:
 
     async def create_payoff(self, amount: float, order_id: str = None, service: str = 'lava', wallet_to: str = None, substract_fee: int = 0) -> str:
         """
-        Выставление счета
+        Создание вывода
 
         **Параметры**\n
             • amount - ``float`` - Сумма вывода\n
