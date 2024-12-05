@@ -1,4 +1,4 @@
-# LavaBusiness
+# LavaBusiness (OUTDATED)
 [![PyPi Package Version](https://img.shields.io/pypi/v/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
 [![PyPi status](https://img.shields.io/pypi/status/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
 [![Supported python versions](https://img.shields.io/pypi/pyversions/lavabusiness)](https://pypi.python.org/pypi/lavabusiness)
