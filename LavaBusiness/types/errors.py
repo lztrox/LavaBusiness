@@ -1,7 +1,7 @@
 from typing import Dict
 
 class LavaError(Exception):
-    def __init__(self, response: dict):
+    def __init__(self, response: dict | str):
         self.error = response['error']
 
         if isinstance(self.error, Dict):
