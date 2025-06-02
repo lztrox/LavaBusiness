@@ -1,4 +1,4 @@
-# LavaBusiness (OUTDATED)
+# LavaBusiness (REFACTORING)
 [![PyPi Package Version](https://img.shields.io/pypi/v/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
 [![PyPi status](https://img.shields.io/pypi/status/lavabusiness?style=flat-square)](https://pypi.python.org/pypi/lavabusiness)
 [![Supported python versions](https://img.shields.io/pypi/pyversions/lavabusiness)](https://pypi.python.org/pypi/lavabusiness)
@@ -11,7 +11,7 @@
 
 **LavaBusiness** это асинхронный клиент для работы с Lava.ru Бизнес-API 
 
-## Examples
+## Examples (OUTDATED)
 <details>
   <summary>📕 Basic usage examples</summary>
   
@@ -63,9 +63,9 @@ asyncio.run(main())
 </details>
 
 ## ✔ TODO
+- [ ] redo examples
+- [ ] update on pip
 - [ ] EN Translation
-- [ ] httpx -> aiohttp
-- [ ] Docs for types.errors
 
 ## ☕ Buy me a coffee
 BTC - bc1qmt354lzp06dkmmtx2f7m3xlg6uuu20jt755ce7
