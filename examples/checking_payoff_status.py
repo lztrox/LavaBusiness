@@ -11,10 +11,10 @@ async def main():
     payoff = await api.payoff_status(PAYOFF_ID)
 
     if payoff.status == 'success':
-        print('Вывод успешно завершен')
+        print('Payoff completed')
     elif payoff.status == 'rejected':
-        print('Вывод отменен')
+        print('Payoff canceled')
     else:
-        print('Вывод в очереди')
+        print('Payoff in queue')
 
 asyncio.run(main())

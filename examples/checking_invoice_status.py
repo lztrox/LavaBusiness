@@ -11,10 +11,10 @@ async def main():
     invoice = await api.invoice_status(INVOICE_ID)
 
     if invoice.status == 'success':
-        print('Счет оплачен')
+        print('Invoice paid')
     elif invoice.status == 'expired':
-        print('Счет просрочен')
+        print('Invoice expired')
     else:
-        print('Счет ожидает оплаты')
+        print('Waiting for payment')
     
 asyncio.run(main())

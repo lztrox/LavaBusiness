@@ -8,6 +8,6 @@ api = AioLava(SECRET_KEY, PROJECT_ID)
 
 async def main():
     payoff = await api.create_payoff(100)
-    print(f'Идентификатор вывода: {payoff.payoff_id}')
+    print(f'Payoff ID: {payoff.payoff_id}')
 
 asyncio.run(main())
