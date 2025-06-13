@@ -8,11 +8,11 @@ api = AioLava(SECRET_KEY, PROJECT_ID)
 
 async def main():
     PAYOFF_ID = ""
-    status = await api.payoff_status(PAYOFF_ID)
+    payoff = await api.payoff_status(PAYOFF_ID)
 
-    if status == 'success':
+    if payoff.status == 'success':
         print('Вывод успешно завершен')
-    elif status == 'rejected':
+    elif payoff.status == 'rejected':
         print('Вывод отменен')
     else:
         print('Вывод в очереди')

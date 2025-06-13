@@ -8,11 +8,11 @@ api = AioLava(SECRET_KEY, PROJECT_ID)
 
 async def main():
     INVOICE_ID = ""
-    status = await api.invoice_status(INVOICE_ID)
+    invoice = await api.invoice_status(INVOICE_ID)
 
-    if status == 'success':
+    if invoice.status == 'success':
         print('Счет оплачен')
-    elif status == 'expired':
+    elif invoice.status == 'expired':
         print('Счет просрочен')
     else:
         print('Счет ожидает оплаты')
