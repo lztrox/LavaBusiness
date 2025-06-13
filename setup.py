@@ -1,21 +1,21 @@
 from setuptools import setup, find_packages
 
-with open("README.rst", "r") as readme_file:
+with open("README.md", "r", encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
-requirements = ['httpx>=0.23.1']
+requirements = ['aiohttp>=3.7.0', 'pydantic>=1.8.0']
 
 setup(
     name="LavaBusiness",
+    version="2.0.0",
     description="Async client for lava.ru business-API",
-    author="lztrox",
+    long_description=readme,
+    long_description_content_type="text/markdown",
     url="https://github.com/lztrox/LavaBusiness",
-    version="1.0.5",
+    author="lztrox",
     python_requires='>=3.7',
     packages=find_packages(),
     install_requires=requirements,
-    long_description=readme,
-    long_description_content_type="text/markdown",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
@@ -25,10 +25,11 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
     project_urls={
         "Docs": "https://lavabusiness.readthedocs.io/ru/latest/",
         "Source code": "https://github.com/lztrox/LavaBusiness",
-        "Author": "https://hazedev.ru",
+        "Author": "https://github.com/lztrox",
     },
 )
