@@ -104,7 +104,7 @@ class PayMethods(BaseModel):
 
     :var List[PayMethod] methods: Список методов оплаты.
     """
-    tariffs: List[PayMethod]
+    methods: List[PayMethod]
 
 class PayoffTariff(BaseModel):
     """
