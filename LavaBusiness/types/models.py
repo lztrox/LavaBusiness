@@ -111,7 +111,7 @@ class PayoffTariff(BaseModel):
     Информация о тарифе на вывод.
 
     :var str title: Название платежного сервиса.
-    :var str service: Внутренний дентификатор сервиса.
+    :var str service: Внутренний идентификатор сервиса.
     :var str currency: Валюта.
     :var float min_sum: Минимальная сумма вывода.
     :var float max_sum: Максимальная сумма вывода.
